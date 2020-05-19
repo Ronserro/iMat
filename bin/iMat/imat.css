@@ -1,0 +1,40 @@
+@font-face {
+  -fx-font-family: "Fredoka One";
+  src: url('FredokaOne-Regular.ttf');
+}
+
+@font-face {
+  -fx-font-family: "Inter";
+  src: url('Inter-Light-slnt=0.ttf');
+}
+
+@font-face {
+  -fx-font-family: "Oswald";
+  src: url('Oswald-Medium.ttf');
+}
+
+.navbar{
+	 -fx-background-color: #FCFCFC;
+}
+
+.navbar-text{
+	 -fx-font-family: "Fredoka One";
+	 -fx-text-fill: #FFFFFF;
+}
+
+.navbar-search{
+	
+}
+
+.text{
+	-fx-font-family: "Inter";
+}
+
+.ProductItem{
+	  -fx-border-radius: 50 50 50 50;
+  	  -fx-background-radius: 50 50 50 50;
+}
+
+.bestPrice{
+	-fx-font-family: "Oswald";
+}

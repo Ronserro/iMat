@@ -1,13 +1,167 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.*?>
-<?import javafx.scene.image.*?>
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" maxHeight="400.0" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
-   
+<AnchorPane id="AnchorPane" maxHeight="1080.0" maxWidth="1920.0" minHeight="1080.0" minWidth="1920.0" prefHeight="1080.0" prefWidth="1920.0" stylesheets="@imat.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane maxHeight="1080.0" maxWidth="1920.0" minHeight="1080.0" minWidth="1920.0" prefHeight="1080.0" prefWidth="1920.0">
+         <children>
+            <Rectangle fill="#fab005" height="100.0" strokeType="INSIDE" strokeWidth="0.0" styleClass="navbar" width="1920.0" />
+            <Text fill="WHITE" layoutX="32.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="navbar-text" text="iMat">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="20.0" arcWidth="20.0" fill="WHITE" height="72.0" layoutX="600.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="720.0" />
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1262.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@resources/img_487196.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="1827.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@resources/iconmonstr-shopping-cart-6-72.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="1668.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="navbar-text" text="Logga in">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Rectangle fill="#668aab" height="980.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" width="400.0" />
+            <ScrollPane layoutX="400.0" layoutY="100.0" prefHeight="980.0" prefWidth="1520.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane maxHeight="1080.0" maxWidth="1920.0" minHeight="1080.0" minWidth="1920.0" prefHeight="1080.0" prefWidth="1920.0">
+         <children>
+            <Rectangle height="1080.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1920.0" />
+            <Rectangle fill="WHITE" height="980.0" layoutX="50.0" layoutY="50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1820.0" />
+            <Rectangle fill="#d12727" height="80.0" layoutX="790.0" layoutY="330.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="80.0" />
+            <Rectangle fill="#0dbb29" height="80.0" layoutX="1038.0" layoutY="330.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="80.0" />
+            <Line endX="50.0" fill="#e8e8e8" layoutX="805.0" layoutY="369.0" stroke="WHITE" strokeWidth="2.0" />
+            <Line endX="50.0" fill="WHITE" layoutX="1053.0" layoutY="369.0" rotate="90.0" stroke="WHITE" strokeWidth="2.0" />
+            <Line endX="50.0" fill="WHITE" layoutX="1053.0" layoutY="369.0" stroke="WHITE" strokeWidth="2.0" />
+            <Rectangle fill="#c4c4c4" height="80.0" layoutX="870.0" layoutY="330.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="168.0" />
+            <Text layoutX="870.0" layoutY="383.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="0 st" textAlignment="CENTER" wrappingWidth="168.0">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Text layoutX="562.0" layoutY="365.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="Banan">
+               <font>
+                  <Font size="34.0" />
+               </font>
+            </Text>
+            <Text layoutX="518.0" layoutY="408.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="Indien, 4 st">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="498.0" layoutY="455.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="29.90 kr/kg">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="260.0" fitWidth="300.0" layoutX="360.0" layoutY="500.0" pickOnBounds="true" preserveRatio="true" />
+            <Rectangle fill="WHITE" height="60.0" layoutX="790.0" layoutY="640.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="690.0" />
+            <Rectangle fill="#e9ecef" height="60.0" layoutX="790.0" layoutY="820.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="690.0" />
+            <Rectangle fill="WHITE" height="60.0" layoutX="790.0" layoutY="520.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="690.0" />
+            <Rectangle fill="#e9ecef" height="60.0" layoutX="790.0" layoutY="580.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="690.0" />
+            <Rectangle fill="#e9ecef" height="60.0" layoutX="790.0" layoutY="700.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="690.0" />
+            <Rectangle fill="WHITE" height="60.0" layoutX="790.0" layoutY="760.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="690.0" />
+            <Rectangle fill="#e9ecef" height="70.0" layoutX="790.0" layoutY="450.0" stroke="#e9ecef" strokeType="INSIDE" strokeWidth="0.0" width="230.0" />
+            <Rectangle fill="#e9ecef" height="70.0" layoutX="1250.0" layoutY="450.0" stroke="#e9ecef" strokeType="INSIDE" strokeWidth="0.0" width="230.0" />
+            <Rectangle fill="#adb5bd" height="70.0" layoutX="1020.0" layoutY="450.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="230.0" />
+            <Text layoutX="790.0" layoutY="497.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="Produktfakta" textAlignment="CENTER" wrappingWidth="230.0">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="1020.0" layoutY="497.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="Näringsinnehåll" textAlignment="CENTER" wrappingWidth="230.0">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="1250.0" layoutY="497.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="Övrigt" textAlignment="CENTER" wrappingWidth="230.0">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="800.0" layoutY="680.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="kolhydrat" wrappingWidth="230.0">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="800.0" layoutY="619.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="Varav mättat fett" wrappingWidth="230.0">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="800.0" layoutY="560.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="Fett" wrappingWidth="230.0">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="1240.0" layoutY="740.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="7 gram" textAlignment="RIGHT" wrappingWidth="230.0">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="1240.0" layoutY="680.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="11 gram" textAlignment="RIGHT" wrappingWidth="230.0">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="1240.0" layoutY="620.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="1,8 gram" textAlignment="RIGHT" wrappingWidth="230.0">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="1240.0" layoutY="560.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="2,5 gram" textAlignment="RIGHT" wrappingWidth="230.0">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="800.0" layoutY="860.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="salt" wrappingWidth="230.0">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="800.0" layoutY="800.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="protein" wrappingWidth="230.0">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="800.0" layoutY="740.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="varav sockerarter" wrappingWidth="230.0">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="1240.0" layoutY="800.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="2 gram" textAlignment="RIGHT" wrappingWidth="230.0">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+            <Text layoutX="1240.0" layoutY="860.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="&gt;0,5 gram" textAlignment="RIGHT" wrappingWidth="230.0">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+            <Rectangle fill="#f03e3e" height="60.0" layoutX="515.0" layoutY="712.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="140.0" />
+            <Rectangle fill="#fab005" height="60.0" layoutX="510.0" layoutY="707.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="140.0" />
+            <Text fill="WHITE" layoutX="526.0" layoutY="746.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="bestPrice" text="Text">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
 </AnchorPane>

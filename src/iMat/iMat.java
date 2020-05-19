@@ -1,4 +1,3 @@
-
 package iMat;
 
 import java.util.ResourceBundle;
@@ -9,7 +8,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class iMat extends Application {
-    
+    // För korttyp https://www.bbva.es/en/finanzas-vistazo/ef/tarjetas/numero-tarjeta-visa-mastercard.html
     @Override
     public void start(Stage stage) throws Exception {
         
@@ -17,7 +16,7 @@ public class iMat extends Application {
         
         Parent root = FXMLLoader.load(getClass().getResource("iMat.fxml"), bundle);
         
-        Scene scene = new Scene(root, 600, 400);
+        Scene scene = new Scene(root, 1920, 1080);
         
         stage.setTitle(bundle.getString("application.name"));
         stage.setScene(scene);
